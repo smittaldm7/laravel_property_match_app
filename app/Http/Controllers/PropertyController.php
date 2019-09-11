@@ -360,11 +360,17 @@ class PropertyController extends Controller
 
         //echo "<pre>";print_r($prmatches_all_raw);
 
+    
+
         foreach($prmatches_all_raw as $key => $prmatch)
         {
-            echo "<pre>";
-            echo "Match No.".($key+1);
-            echo "<pre>"; print_r($prmatch);
+            if($prmatch->match_percent>=40)
+            {
+                echo "<pre>";
+                echo "Match No.".($key+1);
+                echo "<pre>"; print_r($prmatch);
+            }
+
         }
        // exit;
 
