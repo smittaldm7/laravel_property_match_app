@@ -1,0 +1,103 @@
+distance 30
+budget 30
+bedrooms 20
+bathrooms 20
+
+
+full match 100%
+2 mile distance  
+prop price between req min and mx budget....,min not specidfied then within max and max -10%,......max not specified then within min and min +10%
+bedroom should be between req min and max...if min or max not specified bedroom should be within req -2, req+2.
+
+valid 40%
+10 mile
+prop price betwwen req min and mx budget....,min not specidfied then within max and max -25%,......max not specified then within min and min +25%
+bedroom should be between req min and max...if min or max not specified bedroom should be within req -5, req+5.
+
+
+valid match
+
+
+distance
+
+if min budget is nul set floor to max-25%, max
+else if max budget is null set ceiling to min +25%
+
+now we have floor and ceiling
+
+
+
+option 1 put all match combinations in database
+
+
+option 2 put only valid match combinations in database
+
+
+
+
+price
+
+12	40%     0     	0
+
+13			1		7.5
+
+20  100%	8		60
+25  100% 
+
+13-minvalid
+1/8 *60
+
+price
+
+
+distance
+
+10  40				8	0
+
+5					3
+	
+2 	100				0	60
+
+
+40+(8-d)/8*60
+
+
+
+bedrooms max specified
+-2	40% min valid
+
+-1	60
+0	80
+1	100% min full
+3	100%
+
+40+ x-(-2)*20
+40+ 
+
+
+min specified
+2	100%
+4	100% max full
+
+7	40% max valid
+
+40 + (max_valid-x)*20
+
+
+
+max 500000
+
+min valid = 75% of 500,000 = 375000
+min full = 90% of 500,000 = = 450000
+
+price 400000
+
+price - min _valid / max -min_valid *60
+
+25000*60 /125000
+
+12
+
+
+
+
