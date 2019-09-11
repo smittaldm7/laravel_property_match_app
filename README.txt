@@ -4,10 +4,10 @@ Property Match App
 
 
 http://127.0.0.1:8000/property/create
-can create a new property You will get all requirement matches on submitting
+can create a new property You will get all requirement matches on submitting. Top match precent will be on top
 
 http://127.0.0.1:8000/requirement/create
-can create a new requirement You will get all requirement matches on submitting
+can create a new requirement You will get all requirement matches on submitting. Top match precent will be on top
 
 
 Tables = Property, Requirement, Property_Requirement_Match
