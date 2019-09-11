@@ -4,10 +4,12 @@ Property Match App
 
 
 http://127.0.0.1:8000/property/create
-can create a new property You will get all requirement matches on submitting. Top match precent will be on top
+can create a new property You will get all requirement matches on submitting. 
+Matches will be should in descending order of match percent.  ONly matches with 40% or above match percent will be shown
 
 http://127.0.0.1:8000/requirement/create
-can create a new requirement You will get all requirement matches on submitting. Top match precent will be on top
+can create a new requirement You will get all requirement matches on submitting. 
+Matches will be should in descending order of match percent. ONly matches with 40% or above match percent will be shown
 
 
 Tables = Property, Requirement, Property_Requirement_Match
