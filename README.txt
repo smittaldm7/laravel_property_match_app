@@ -27,7 +27,9 @@ this is a weighted sum of
 
 -----
 1. Distance match algorithm
-    we claculate distance using the forula given here. https://www.geodatasource.com/developers/php . Verified for few cases on google maps.
+    we claculate distance using the forula given here. https://www.geodatasource.com/developers/php . 
+    Verified for few cases approxiately on google maps. 
+    This URL is good for vexact distance verification between 2 locations: https://www.movable-type.co.uk/scripts/latlong.html
     if distance is 
     -more than 10 miles it is a 0% distance match.
     -10 miles- 40% match
